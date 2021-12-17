@@ -1,4 +1,3 @@
-let gameData = {};
 let dataNumber = [];
 
 
@@ -13,25 +12,30 @@ document.querySelector('#btn-reset').addEventListener('click', reset);
 function generate() {
     const from = Number(inputFrom.value);
     const to = Number(inputTo.value);
+    const range = to - from + 1;
 
-    gameData.randomNum = Math.floor((Math.random() * (to - from + 1) + from));
+    let num = Math.floor((Math.random() * range + from));
 
-    let num = gameData.randomNum;
 
-    document.querySelector('#number').innerHTML = num;
-    /* document.querySelector('#btn-generate').disabled = true;*/
+    while (dataNumber.includes(num)) {
+        num++;
+
+        if (num > to) {
+            num = from;
+        }
+    }
+
 
     dataNumber.push(num);
-
-    if (gameData.includes(num)) {
-
+    document.querySelector('#number').innerHTML = num;
+    if (dataNumber.length === range) {
+        document.querySelector('#btn-generate').disabled = true;
     }
 }
 
 function reset() {
     document.querySelector('#btn-generate').disabled = false;
 
-    gameData = {};
     dataNumber = [];
     inputFrom.value = '';
     inputTo.value = '';
