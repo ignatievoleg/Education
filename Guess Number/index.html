@@ -8,22 +8,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h3>Привет, я загадал число от min до max вашего диапазона. Попробуй угадать его за x попыток!</h3>
-    <p>Выбери свой диапазон:</p>
+<h3>Привет, я загадал число от min до max вашего диапазона. Попробуй угадать его за x попыток!</h3>
+<p>Выбери свой диапазон:</p>
     <div>
-        <input type="number" min="1" max="200" id="from">
+        <input type="number" min="1" max="200" value="1" id="from">
         до
-        <input type="number" id="to">
+        <input type="number"  min="1" max="200" value="200" id="to">
     </div>
     <p>Сколько хочешь попыток?</p>
     <button id="btn-generate">GENERATE</button>
-    <input type="number" id="attempts">
+    <input type="number" min="5" max="15" value="5" id="attempts">
     <p>Отлично! Начнем. Введи первое число.</p>
-    <input type="number" id="guess">
+    <input type="number"  id="guess">
     <button id="btn-guess">Guess</button>
     <button id="btn-exit">EXIT</button>
-
-
 
 
 
