@@ -4,7 +4,6 @@ document.querySelector = jest.fn((selector)=> {
         '#to':'10',
         '#attempts': '3'
     }
-
     return {addEventListener: () => {},
     value:obj[selector]}
 })
@@ -21,5 +20,7 @@ describe('generate', () => {
         expect(gameData.attempts).toBe(3)
         expect(gameData.hiddenNumber).toBe(10)
         expect(global.Math.random).toHaveBeenCalled()
+
     })
+
 })

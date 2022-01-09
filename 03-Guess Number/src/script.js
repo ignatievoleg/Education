@@ -6,7 +6,6 @@ let history = [];
     const attemptsInput = document.querySelector('#attempts');
     const guessInput = document.querySelector('#guess');
 
-
 function generate() {
     const from = Number(fromInput.value);
     const to = Number(toInput.value);

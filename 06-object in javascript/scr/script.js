@@ -8,9 +8,6 @@ function getCookingTime(eggsAmount) {
     return  Math.ceil(eggsAmount / 5) * 5;
 }
 
-
-
-
 /*2.Получая массив чисел. Все они либо нечетные, либо четные, кроме
 одного. Тебе нужно его найти.
 */
@@ -26,8 +23,6 @@ function getNumber(array) {
 
 
 }
-
-
 
 /*3. Принимая массив объектов и случайную строку. У объектов может
 быть ключ: «title» с разными значениями. Создайте алгоритм, который
@@ -58,6 +53,7 @@ let arr = [{
 }];
 
 
+
 /*4Принимая строку, ваша функция должна вернуть обьект, в котором
 ключи – символы строки, значение – количество повторений символов в
 строке*/
@@ -76,8 +72,6 @@ function countCharacters(string) {
 
 }
 
-
-
 /*5 Принимая число, ваша функция должна найти следующий
 положительный палиндром большего размера.
 */
@@ -91,10 +85,10 @@ function getNextPalindrome(number) {
             return i;
         }
     }
-
+return ;
 }
 
-module.exports = {getNextPalindrome, countCharacters};
+module.exports = {findTitle, countCharacters, getNextPalindrome, getCookingTime, getNumber};
 
 
 

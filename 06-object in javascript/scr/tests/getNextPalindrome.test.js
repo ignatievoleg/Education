@@ -1,4 +1,4 @@
-const {getNextPalindrome} = require('./script');
+const {getNextPalindrome} = require('../script');
 
 describe('scripts', () => {
     test('getNextPalindrome', () => {
