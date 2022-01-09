@@ -1,10 +1,10 @@
 let gameData = {};
 let history = [];
 
-const fromInput = document.querySelector('#from');
-const toInput = document.querySelector('#to');
-const attemptsInput = document.querySelector('#attempts');
-const guessInput = document.querySelector('#guess');
+    const fromInput = document.querySelector('#from');
+    const toInput = document.querySelector('#to');
+    const attemptsInput = document.querySelector('#attempts');
+    const guessInput = document.querySelector('#guess');
 
 
 function generate() {
@@ -12,16 +12,18 @@ function generate() {
     const to = Number(toInput.value);
     const numberAttempts = Number(attemptsInput.value);
 
+    if ((from > 200 || from < 1) || (to > 200 || to < 1) || (numberAttempts > 15 || numberAttempts < 1)) {
+        alert('неправильное условие');
+        exit();
+        return;
+    }
+
+
     gameData.attempts = Number(attemptsInput.value);
 
     document.querySelector('#btn-generate').disabled = true;
     gameData.hiddenNumber = Math.floor(Math.random() * (to - from) + from);
-    console.log(gameData.hiddenNumber)
 
-    if ((from > 200 || from < 1) || (to > 200 || to < 1) || (numberAttempts > 15 || numberAttempts < 1)) {
-        alert('неправильное условие');
-        exit();
-    }
 
 }
 
@@ -83,4 +85,8 @@ function guess() {
 document.querySelector('#btn-generate').addEventListener('click', generate);
 document.querySelector('#btn-exit').addEventListener('click', exit);
 document.querySelector('#btn-guess').addEventListener('click', guess);
+
+module.exports = {generate, exit, guess, gameData};
+
+
 

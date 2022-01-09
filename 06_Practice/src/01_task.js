@@ -9,4 +9,4 @@ function intersectionOfObjects (firstObj, secondObj)  {
     }, {});
 }
 
-module.exports = intersectionOfObjects;
+module.exports = {intersectionOfObjects};

@@ -6,7 +6,7 @@ function outer() {
 
 const res = outer();
 
-console.log(res(), res(), res(), res())
+console.log(res(), res())
 
 //---------------------------
 function test(a, b, c, d) {

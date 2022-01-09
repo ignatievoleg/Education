@@ -1,1 +1,0 @@
-const {countCharacters} = require('./script');

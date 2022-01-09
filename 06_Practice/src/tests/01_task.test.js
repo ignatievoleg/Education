@@ -1,4 +1,4 @@
-const intersectionOfObjects = require ('../01_task');
+const {intersectionOfObjects} = require ('../01_task');
 
 describe( 'intersectionOfObjects', () => {
     test ( 'intersection object', () => {

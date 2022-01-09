@@ -94,8 +94,6 @@ function getNextPalindrome(number) {
 
 }
 
-
-
 module.exports = {getNextPalindrome, countCharacters};
 
 
