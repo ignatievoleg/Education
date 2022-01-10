@@ -31,3 +31,5 @@ function tickets(price) {
         }
     } return 'YES'
 }
+
+module.exports = {tickets};

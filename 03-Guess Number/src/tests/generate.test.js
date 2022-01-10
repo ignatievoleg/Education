@@ -10,7 +10,9 @@ document.querySelector = jest.fn((selector)=> {
 global.Math.random =jest.fn(() => {
     return 1;
 })
-
+global.alert = jest.fn(() => {
+    return '';
+})
 const {generate, gameData} = require ('../script');
 
 
@@ -20,7 +22,9 @@ describe('generate', () => {
         expect(gameData.attempts).toBe(3)
         expect(gameData.hiddenNumber).toBe(10)
         expect(global.Math.random).toHaveBeenCalled()
+        expect(global.alert()).toStrictEqual('')
 
     })
+    
 
 })

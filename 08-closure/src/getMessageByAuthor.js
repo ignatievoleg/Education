@@ -14,5 +14,7 @@ function getMessageByAuthor(listOfPosts, nameAuthor) {
             })
         }
     })
-    return [countMessages, countComments];
+    return 'post - ' + countMessages + ', ' + 'comments - ' + countComments;
 }
+
+module.exports = getMessageByAuthor;

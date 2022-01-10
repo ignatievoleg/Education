@@ -1,15 +1,11 @@
 function getSum(x, y) {
+    const arr1 = x.split('').map(Number)
+    const arr2 = y.split('').map(Number)
 
-    const arr1 = x.split('');
-    const newArr1 = arr1.map(Number)
-
-    const arr2 = y.split('');
-    const newArr2 = arr2.map(Number)
-
-    const sum = newArr2.map(function (newArr2, i) {
-        return newArr2 + newArr1[i];
+    const sum = arr2.map(function (arr2, i) {
+        return arr2 + arr1[i];
     });
-    return Number(sum.join(''));
+    return sum.join('');
 }
 
-console.log(getSum('123','234'))
+module.exports = getSum;
