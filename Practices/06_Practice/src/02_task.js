@@ -19,3 +19,5 @@ function deepEquality(a, b) {
 }
 
 console.log(deepEquality( { a: 1, b: { c: 1,d:{o:1} } }, { a: 1, b: { c: 1,d:{a:1} } }))
+
+module.exports = {deepEquality};

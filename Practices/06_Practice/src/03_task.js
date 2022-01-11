@@ -1,11 +1,7 @@
 function removesDuplicateInAnArray(arr) {
-    let result = Array.from(new Set(arr));
-    return result;
-
+    return Array.from(new Set(arr));
 
 }
-
-console.log(removesDuplicateInAnArray([1, 5, 2, 3, 4, 3, 2]));
 
 function removesDuplicateInAnArray2 (arr) {
     return Object.keys(arr.reduce((acc, el) => {
@@ -13,5 +9,7 @@ function removesDuplicateInAnArray2 (arr) {
         return acc;
     }, {}));
 }
+
+module.exports = {removesDuplicateInAnArray,removesDuplicateInAnArray2};
 
 

@@ -10,11 +10,11 @@ function isEmptyObject (a) {
     return true;
 }
 
-console.log(isEmptyObject({a:undefined}))
-
 function isEmptyObject2 (a) {
     const filteredObj = JSON.parse(JSON.stringify(a));
     return Object.keys(filteredObj).length === 0
 
 }
-console.log(isEmptyObject2({a:1}))
+
+module.exports = {isEmptyObject, isEmptyObject2};
+

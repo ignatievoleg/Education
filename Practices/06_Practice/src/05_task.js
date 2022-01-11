@@ -8,7 +8,6 @@ Function.prototype.myBind = myBind;
 
 let user = {
     firstName: "Вася",
-    func: func
 };
 let obj = {
     firstName: 'Коля',
@@ -17,10 +16,12 @@ let obj = {
 }
 
 function func() {
-    console.log(this.firstName);
+   return this.firstName;
 }
 
 
 obj.func();
 obj.myFunc();
-user.func()
+
+
+module.exports = {obj,user,myBind,func};
