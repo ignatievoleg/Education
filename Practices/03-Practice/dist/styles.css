@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #343434;
+}
+
+input {
+  display: contents;
+  visibility: hidden;
+}
+
+label {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 4;
+}
+
+.calendar {
+  box-shadow: 0 0 12px #cccccc;
+}
+.calendar__header {
+  background-color: #1e6a85;
+}
+.calendar__header-title {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: #dbeaf1;
+  font-family: "Comic Sans MS";
+  font-size: 60px;
+}
+.calendar__header-day {
+  display: flex;
+  justify-content: space-between;
+  color: #dbeaf1;
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  padding: 15px;
+}
+.calendar-main {
+  background: #e9f8ff;
+}
+.calendar-main__day-number {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.calendar-main__another-Month {
+  background-color: #acbac1;
+  cursor: not-allowed;
+}
+.calendar-main__holiday {
+  background-color: #ff2505;
+  cursor: pointer;
+}
+.calendar-main__off, .calendar-main__holiday {
+  cursor: pointer;
+}
+.calendar-main__off:hover, .calendar-main__holiday:hover {
+  background-color: #ff5f5f;
+  color: #cccccc;
+}
+.calendar-main__off:focus, .calendar-main__holiday:focus {
+  color: #cccccc;
+  background-color: #082185;
+}
+.calendar-main__this-Month {
+  cursor: pointer;
+}
+.calendar-main__this-Month:hover {
+  color: #cccccc;
+  background-color: #1EA8D2;
+}
+.calendar-main__this-Month:focus {
+  color: #cccccc;
+  background-color: #082185;
+}

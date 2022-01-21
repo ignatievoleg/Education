@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0157191-1e17-4077-8fcd-e6902baa8f2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../010-Collections/123.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/AList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/LList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Randomaizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Randomaizer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23pzakVFSueFUQ6wFpzS6X7Y5jV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practices/06_Practice" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0157191-1e17-4077-8fcd-e6902baa8f2a" name="Default Changelist" comment="" />
+      <created>1642445881190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642445881190</updated>
+      <workItem from="1642445882528" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1642445902460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642445902460" />
+  </component>
+</project>

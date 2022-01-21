@@ -23,63 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f1d5dd9-5b21-458c-bc39-bd92bd28137f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-Guess Number/src/tests/generate.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/.idea/06_Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/src/01_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/../06_Practice/src/01_task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/src/tests/01_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../06_Practice/src/tests/01_task.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Practice/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.idea/Guess Number.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/src/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess Number/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.idea/Calendar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice3/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice4/.idea/Practice4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/.idea/Practice5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice5/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.idea/Randomaizer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/src/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randomaizer/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_closure/src/04_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_closure/src/04_task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/123.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/AList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/LList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/src/ts/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../010-Collections/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-App Calculator/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -166,6 +124,7 @@
       <workItem from="1639850313621" duration="17859000" />
       <workItem from="1640113815008" duration="7421000" />
       <workItem from="1641740671784" duration="971000" />
+      <workItem from="1642361988805" duration="184000" />
     </task>
     <servers />
   </component>
@@ -182,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641740990938">
